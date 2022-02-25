@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/vlad-test/static/css/main.59d6d0e2.css",
+    "main.js": "/vlad-test/static/js/main.8b984df7.js",
+    "static/js/787.5fc8205c.chunk.js": "/vlad-test/static/js/787.5fc8205c.chunk.js",
+    "static/media/heroBg.png": "/vlad-test/static/media/heroBg.fc5f1f27deddfa732ac7.png",
+    "static/media/wantToWatchBg.png": "/vlad-test/static/media/wantToWatchBg.885fb0ded39b59ec767e.png",
+    "static/media/video.png": "/vlad-test/static/media/video.d4eab2e631694cd4e168.png",
+    "static/media/room1.png": "/vlad-test/static/media/room1.f687aa4a84084e8f05e0.png",
+    "static/media/room2.png": "/vlad-test/static/media/room2.17c9d33849e6275ce157.png",
+    "static/media/fountain.svg": "/vlad-test/static/media/fountain.f3e65eb01f31cda6e4742ac60e4cf6dc.svg",
+    "static/media/bench.svg": "/vlad-test/static/media/bench.049df563f44fa0f0210d91635e71d7e6.svg",
+    "static/media/building.svg": "/vlad-test/static/media/building.fe05cd680569d9e0a5f75ac53eac11f4.svg",
+    "static/media/bicycle.svg": "/vlad-test/static/media/bicycle.dbf643fdb43ea322c064ffbcc1b846a8.svg",
+    "static/media/vk.svg": "/vlad-test/static/media/vk.6753fd88d780fc5222a5489a89173b90.svg",
+    "static/media/phone.svg": "/vlad-test/static/media/phone.7a9b99190bb6dd13bc0c83160d1c0dc0.svg",
+    "static/media/location.svg": "/vlad-test/static/media/location.c314b31bce23f04312f1ff7e162c16f9.svg",
+    "static/media/instagram.svg": "/vlad-test/static/media/instagram.29a93dae91df4a4698e84a5a5230d00a.svg",
+    "static/media/mouse.svg": "/vlad-test/static/media/mouse.c6ef0cf27c49468897c5579eae49bd25.svg",
+    "index.html": "/vlad-test/index.html",
+    "static/media/facebook.svg": "/vlad-test/static/media/facebook.0d64ba6fe7115e2ace2e248a649f8f2b.svg",
+    "static/media/play-button.svg": "/vlad-test/static/media/play-button.128b396d7a011a83201d8b72753a5097.svg",
+    "static/media/youtube.svg": "/vlad-test/static/media/youtube.20acaa0daa6abdbfd22156e8fd4102a3.svg",
+    "main.59d6d0e2.css.map": "/vlad-test/static/css/main.59d6d0e2.css.map",
+    "main.8b984df7.js.map": "/vlad-test/static/js/main.8b984df7.js.map",
+    "787.5fc8205c.chunk.js.map": "/vlad-test/static/js/787.5fc8205c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59d6d0e2.css",
+    "static/js/main.8b984df7.js"
+  ]
+}
