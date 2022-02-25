@@ -1,0 +1,54 @@
+.hero {
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%),
+    url('../../images/heroBg.png');
+    padding-top: 30px;
+    padding-bottom: 74px;
+    background-size: cover;
+}
+.hero-heading {
+font-family: "Playfair Display", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+color: #D4C17F;
+text-align: center;
+width: 582px;
+margin-bottom: 100px;
+}
+@media screen and (max-width:767.5px) {
+    .hero-heading {
+        width: 420px;
+    }
+    
+}
+.hero-centerBlock {
+    margin-top: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 470px;
+}
+.hero-mouse {
+    margin-bottom: auto;
+}
+.hero-list{ 
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+}
+.hero-list_item:not(:last-child){
+    margin-right: 98px;
+
+}
+.hero-contact_links {
+    display: flex;
+}
+.hero-contact_icons {
+    margin-right: 14px;
+}

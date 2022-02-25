@@ -1,0 +1,25 @@
+.contacts {
+ font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.05em;
+margin-left: 164px;
+}
+.contacts-icons:not(:last-child) {
+    margin-right: 20px;
+}
+.contacts-list-item:not(:last-child){
+    margin-bottom: 15px;
+}
+@media screen and (max-width:1279.5px) {
+    .contacts {
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:767.5px) {
+    .contacts {
+        margin-left: 15px;
+    }
+}

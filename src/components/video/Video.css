@@ -1,0 +1,14 @@
+.video {
+    background-image: url('../../images/video.png');
+    padding: 275px 310px;
+    margin-bottom: 180px;
+}
+.video-button {
+    cursor: pointer;
+}
+@media screen and (max-width:767.5px) {
+    .video {
+        padding: 140px 155px;
+    }
+    
+}
