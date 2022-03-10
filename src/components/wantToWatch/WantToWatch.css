@@ -1,10 +1,8 @@
 .wantToWatch{
     display: flex;
-    padding-left: 405px;
-    padding-right: 405px;
     padding-top: 180px;
     padding-bottom: 180px;
-    background-image: url('../../images/wantToWatchBg.png');
+    max-width: 1110px;
 }
 @media screen and (max-width:1279.5px) {
     .wantToWatch {
@@ -41,7 +39,7 @@ width: 535px;
 .wantToWatch-form__block2 {
     display: flex;
     align-items: center;
-    padding-left: 7px;
+    justify-content: space-between;
 }
 .wantToWatch-from__text {
 width: 255px;
@@ -73,4 +71,10 @@ color: #E7E7E7;
     .wantToWatch-form__button {
         margin: 0;
     }
+}
+.bg{
+    background-image: url('../../images/wantToWatchBg.png');
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }

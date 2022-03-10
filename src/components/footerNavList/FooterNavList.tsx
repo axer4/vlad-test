@@ -1,11 +1,10 @@
+import FooterItem from './FooterItem';
 import './FooterNavList.css';
 function FooterNavList () {
-    const items : Array<string> = ['О комплексе','Район','Каталог квартир','Ипотека','Контакты']
+    const FooterNavListItems : Array<string> = ['О комплексе','Район','Каталог квартир','Ипотека','Контакты']
     return <nav className="footer-menu">
     <ul className="footer-list">
-        {items.map(item => {
-            return <li className="footer-list-item"><a>{item}</a></li>
-        })}
+        {FooterNavListItems.map((item:string,index:number) => <FooterItem item={item} key={`${item}-${index}`}/>  )}
     </ul>
 </nav>
 }

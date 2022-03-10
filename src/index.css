@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
-    box-sizing: border-box;
     background-color: #242B33;
 }
 ul {
@@ -51,11 +53,11 @@ font-size: 14px;
 line-height: 27px;
 color: #BEBEBE;
 text-align: center;
-padding: 12px 49px;
+min-width: 255px;
+padding: 12px 0px;
 }
 button {
 cursor: pointer;
-padding: 12px 67px;
 font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: bold;
@@ -63,5 +65,7 @@ line-height: 27px;
 text-align: center;
 background: #D4C17F;
 color: #FFFFFF;
-margin-left: 30px;
+padding: 12px 0px;
+min-width: 255px;
+border: none;
 }

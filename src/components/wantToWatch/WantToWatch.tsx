@@ -1,6 +1,8 @@
 import './WantToWatch.css'
 function WantToWatch () {
-    return <div className="wantToWatch">
+
+    return <div className='bg'>
+    <div className="wantToWatch">
        <div className="wantToWatch-text">
            <h2 className="wantToWatch-heading heading-second-level">Хотите посмотреть?</h2>
            <p className='wantToWatch-text'>Lorem Ipsum - это текст-"рыба",
@@ -25,6 +27,7 @@ function WantToWatch () {
        
         </form>
        </div>
+    </div>
     </div>
 }
 export default WantToWatch;
