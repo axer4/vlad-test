@@ -32,29 +32,31 @@ function Maps() {
   return (
     <div className='maps'>
       <h2 className='maps-heading heading-second-level'>Район на карте</h2>
-        <div className='maps-google_map'>
-         <Media query="(min-width: 768px)"
-        render={() => <GoogleMap
-          mapContainerStyle={containerStyle}
-          center={center}
-          zoom={18}
-          onLoad={onLoad}
-          onUnmount={onUnmount}
-        >
-          <></>
-        </GoogleMap>}
-      />
-      <Media query="(max-width: 767.5px)"
-        render={() => <GoogleMap
-          mapContainerStyle={containerMobileStyle}
-          center={center}
-          zoom={18}
-          onLoad={onLoad}
-          onUnmount={onUnmount}
-        >
-          <></>
-        </GoogleMap>}
-      />
+      <div className='maps-google_map'>
+        { isLoaded &&
+        <Media query="(min-width: 768px)"
+          render={() => <GoogleMap
+            mapContainerStyle={containerStyle}
+            center={center}
+            zoom={18}
+            onLoad={onLoad}
+            onUnmount={onUnmount}
+          >
+            <></>
+          </GoogleMap>}
+        />}
+
+        { isLoaded && <Media query="(max-width: 767.5px)"
+          render={() => <GoogleMap
+            mapContainerStyle={containerMobileStyle}
+            center={center}
+            zoom={18}
+            onLoad={onLoad}
+            onUnmount={onUnmount}
+          >
+            <></>
+          </GoogleMap>}
+        /> }
       </div>
     </div>
   )
