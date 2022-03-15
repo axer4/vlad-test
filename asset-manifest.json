@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vlad-test/static/css/main.1ca4875b.css",
-    "main.js": "/vlad-test/static/js/main.e68d09c0.js",
+    "main.css": "/vlad-test/static/css/main.9aed037b.css",
+    "main.js": "/vlad-test/static/js/main.87f38e32.js",
     "static/js/787.5fc8205c.chunk.js": "/vlad-test/static/js/787.5fc8205c.chunk.js",
     "static/media/heroBg.png": "/vlad-test/static/media/heroBg.fc5f1f27deddfa732ac7.png",
     "static/media/wantToWatchBg.png": "/vlad-test/static/media/wantToWatchBg.885fb0ded39b59ec767e.png",
@@ -21,12 +21,12 @@
     "static/media/facebook.svg": "/vlad-test/static/media/facebook.0d64ba6fe7115e2ace2e248a649f8f2b.svg",
     "static/media/play-button.svg": "/vlad-test/static/media/play-button.128b396d7a011a83201d8b72753a5097.svg",
     "static/media/youtube.svg": "/vlad-test/static/media/youtube.20acaa0daa6abdbfd22156e8fd4102a3.svg",
-    "main.1ca4875b.css.map": "/vlad-test/static/css/main.1ca4875b.css.map",
-    "main.e68d09c0.js.map": "/vlad-test/static/js/main.e68d09c0.js.map",
+    "main.9aed037b.css.map": "/vlad-test/static/css/main.9aed037b.css.map",
+    "main.87f38e32.js.map": "/vlad-test/static/js/main.87f38e32.js.map",
     "787.5fc8205c.chunk.js.map": "/vlad-test/static/js/787.5fc8205c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ca4875b.css",
-    "static/js/main.e68d09c0.js"
+    "static/css/main.9aed037b.css",
+    "static/js/main.87f38e32.js"
   ]
 }
