@@ -2,7 +2,7 @@ import {RoomObject} from '../../src/components/apartaments/Apartaments';
 import { BenefitsObject } from '../components/benefits/Benefits';
 import store from './store';
 
-// export type StateType = ApartmentsType | BenefitsType;
+
 export interface ApartmentsSliceState {
    apartments: Array<RoomObject>
 }

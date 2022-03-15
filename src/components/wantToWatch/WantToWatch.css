@@ -1,25 +1,25 @@
-.wantToWatch{
+.want_to_watch{
     display: flex;
     padding-top: 180px;
     padding-bottom: 180px;
     max-width: 1110px;
 }
 @media screen and (max-width:1279.5px) {
-    .wantToWatch {
+    .want_to_watch {
         flex-direction: column;
         align-items: center;
     }
 }
 @media screen and (min-width:310px) and (max-width:767.5px){
-    .wantToWatch {
+    .want_to_watch {
         flex-direction: column;
         align-items: center;
     }
 }
-.wantToWatch-heading {
+.want_to_watch-heading {
 margin-bottom: 50px;
 }
-.wantToWatch-text {
+.want_to_watch-text {
 font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: normal;
@@ -28,20 +28,20 @@ line-height: 24px;
 color: #FFFFFF;
 width: 535px;
 }
-.wantToWatch-form {
+.want_to_watch-form {
     padding-top: 80px;
     margin-left: 35px;
 }
-.wantToWatch-form__block1{
+.want_to_watch-form__block1{
     display: flex;
     margin-bottom: 35px;
 }
-.wantToWatch-form__block2 {
+.want_to_watch-form__block2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.wantToWatch-from__text {
+.want_to_watch-from__text {
 width: 255px;
 font-family: 'Raleway', sans-serif;
 font-style: normal;
@@ -52,23 +52,23 @@ text-align: center;
 color: #E7E7E7;
 }
 
-.wantToWatch-from_input:not(:first-child) {
+.want_to_watch-from_input:not(:first-child) {
     margin-left: 30px;
 }
 @media screen and (min-width:310px) and (max-width:767.5px) {
-    .wantToWatch-text {
+    .want_to_watch-text {
         width: 310px;
     }
-    .wantToWatch-form__block1{
+    .want_to_watch-form__block1{
         display: block;
     }
-    .wantToWatch-form__block2{
+    .want_to_watch-form__block2{
         display: block;
     }
-    .wantToWatch-from_input:not(:first-child) {
+    .want_to_watch-from_input:not(:first-child) {
         margin: 0;
     }
-    .wantToWatch-form__button {
+    .want_to_watch-form__button {
         margin: 0;
     }
 }

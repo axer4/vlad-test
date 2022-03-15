@@ -1,9 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
-import bench from '../../images/bench.svg';
-import buliding from '../../images/building.svg';
-import fountain from '../../images/fountain.svg';
-import bicycle from '../../images/bicycle.svg';
+import images from "../../images";
 import { BenefitsSliceState } from "../types";
+const {
+    bench,
+    building,
+    fountain,
+    bicycle,
+} = images;
 const initialState: BenefitsSliceState = {benefits: [{
     image:bench,
     description: 'Рядом исторические парки и скверы',
@@ -12,7 +15,7 @@ const initialState: BenefitsSliceState = {benefits: [{
     height: '80'
 },
 {
-    image:buliding,
+    image:building,
     description: 'Полностью обустроенный',
     alt: 'building',
     width: '80',

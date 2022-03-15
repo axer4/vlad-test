@@ -1,8 +1,11 @@
 import './Contacts.css';
-import youtube from '../../images/youtube.svg';
-import vk from '../../images/vk.svg';
-import facebook from '../../images/facebook.svg'
-import instagram from '../../images/instagram.svg';
+import images from '../../images';
+const {
+    youtube,
+    vk,
+    facebook,
+    instagram
+} = images;
 function Contacts() {
     return (
         <div className='contacts'>
@@ -12,10 +15,22 @@ function Contacts() {
                 <li className='contacts-list-item'>Отдел продаж: 10:00 - 20:00</li>
                 <li className='contacts-list-item'>E-mail: vip@housevip.ru</li>
                 <li className='contacts-list-item'>
-                    <img src={youtube} className='contacts-icons' />
-                    <img src={vk} className='contacts-icons' />
-                    <img src={facebook} className='contacts-icons' />
-                    <img src={instagram} className='contacts-icons' />
+                    <img
+                        src={youtube}
+                        className='contacts-icons'
+                        alt='youtbe' />
+                    <img
+                        src={vk}
+                        className='contacts-icons'
+                        alt='vk' />
+                    <img
+                        src={facebook}
+                        className='contacts-icons'
+                        alt='facebook' />
+                    <img
+                        src={instagram}
+                        className='contacts-icons'
+                        alt='instagram' />
                 </li>
             </ul>
         </div>

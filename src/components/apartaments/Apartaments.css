@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     max-width: 1110px;
+    flex-wrap: wrap;
 }
 .apartaments-heading {
 margin-bottom: 100px;
@@ -32,10 +33,19 @@ position: absolute;
 left: 50px;
 bottom: 50px;
 }
+.apartments-add_room {
+    margin-bottom: 10px;
+}
 @media screen and (max-width:767.5px) {
     .apartaments {
         width: 310px;
         padding-right: 515px;
+    }
+    
+}
+@media screen and (max-width:1279.5px) and (min-width:768px) {
+    .apartaments-list {
+        display: block;
     }
     
 }

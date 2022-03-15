@@ -6,7 +6,8 @@ import Video from "../video/Video";
 import WantToWatch from "../wantToWatch/WantToWatch";
 import './Main.css'
 function Main () {
-    return <div className="main">
+    return (
+    <div className="main">
         <Benefits/>
         <Apartaments/>
         <WantToWatch/>
@@ -14,5 +15,6 @@ function Main () {
         <Maps/>
         <Questions/>
     </div>
+    )
 }
 export default Main;

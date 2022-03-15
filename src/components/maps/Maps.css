@@ -2,12 +2,12 @@
     margin-bottom: 100px;
 }
 @media screen and (max-width:1279.5px) {
-    iframe {
-      width: 750px;
+   .maps-google_map{
+      max-width: 750px;
     }
 }
 @media screen and (max-width:767.5px) {
-  iframe {
-    width: 310px;
+.maps-google_map {
+    max-width: 310px;
   }
 }
