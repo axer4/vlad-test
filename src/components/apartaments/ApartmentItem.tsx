@@ -10,7 +10,8 @@ function ApartamentItem (props: ApartamentItemProps)  {
         <li className="apartaments-list_item">
             <img
                 src={image}
-                alt='room' />
+                alt='room'
+                className="apartments-image" />
             <p className="apartments-description">{description}</p>
         </li>
     )

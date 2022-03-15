@@ -71,6 +71,9 @@ color: #E7E7E7;
     .want_to_watch-form__button {
         margin: 0;
     }
+    .want_to_watch-form {
+        margin-left: 80px;
+    }
 }
 .bg{
     background-image: url('../../images/wantToWatchBg.png');

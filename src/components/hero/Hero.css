@@ -19,8 +19,8 @@ margin-bottom: 100px;
 @media screen and (max-width:767.5px) {
     .hero-heading {
         width: 420px;
+        font-size: 32px;
     }
-    
 }
 .hero-centerblock {
     margin-top: 225px;
@@ -51,4 +51,15 @@ text-align: center;
 }
 .hero-contact_icons {
     margin-right: 14px;
+}
+@media screen and (max-width:767.5px) {
+    .hero-list {
+        font-size: 12px;
+    }
+    .hero-list_item:not(:last-child){
+        margin-right: 50px;
+    
+    }
+    
+
 }

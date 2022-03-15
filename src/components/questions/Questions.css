@@ -42,3 +42,11 @@ margin-right: 35px;
     }
     
 }
+@media  screen and (max-width:767.5px) {
+    .questions-description {
+        margin-right: 0px;
+    }
+    .questions-list_item:not(:first-child) {
+        margin-right: 0px;
+    }
+}
