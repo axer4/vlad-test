@@ -7,7 +7,13 @@
     }
 }
 @media screen and (max-width:767.5px) {
-.maps-google_map {
-    max-width: 310px;
+.maps-google_map:first-child {
+    width: 310px;
+  }
+  .maps {
+    max-width: 420px;
+  }
+  .maps-heading{
+    text-align: center;
   }
 }
